@@ -1,0 +1,23 @@
+body{
+    background-color: #252930;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.button{
+    height: 100px;
+    width: 200px; 
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 5px solid black;
+    background-color: white;
+    box-shadow: 5px 5px 0 grey;
+}
+
+.button:active{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
