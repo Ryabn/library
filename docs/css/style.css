@@ -1,20 +1,40 @@
 body{
     background-color: #252930;
     text-align: center;
-}
-
-h1{
     color: white;
 }
 
+h2{
+    color: black;
+}
+label{
+    margin: 10px;
+    display: block;
+}
+input{
+    width: 200px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+#hireme{
+    font-size: 5px;
+}
+
 .button{
+    float: left;
     height: 100px;
     width: 200px; 
-    margin: 0 auto;
-    border-radius: 15px;
+    margin: 10px;
+    border-radius: 50px 15px 50px 15px;
     border: 5px solid black;
-    background-color: white;
+    background-color: #6d9fe0;
     box-shadow: 5px 5px 0 grey;
+}
+
+#submit-button{
+    border-radius: 50px;
+    height: 80px;
+    margin-left: calc(50vw - 100px);
 }
 
 .button:active{

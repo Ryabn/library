@@ -4,15 +4,35 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            Library
+            Ryan's Library
         </title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <script src="js/script.js"></script>
     </head>
     <body>
         <div class="container">
-            <h1 id="header">sfdhb</h1>
-            <div class="button" onclick="sendData();">
+            <h1 id="header">Add Book</h1>
+            <form>
+                
+                <label>Author First Name:</label>
+                <input id="first-name" type="text">
+                
+                <label>Author Last Name:</label>
+                <input id="last-name" type="text">
+                
+                <label>Book Name:</label>
+                <input id="book-name" type="text">
+                
+                <label>Genre:</label>
+                <input id="genre" type="text">
+                
+                <label>Publish Date:</label>
+                <input id="publish-date" type="text">
+                
+            </form>
+            
+            <div id="submit-button" class="button" onclick="validateUserInfo();">
+                <h1>Add Book</h1>
             </div>
         </div>
     </body>
