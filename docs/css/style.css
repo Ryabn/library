@@ -1,11 +1,14 @@
 body{
-    background-color: #252930;
+    background-color: #ededed;
     text-align: center;
     color: white;
+    margin: 0;
+    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h2{
-    color: black;
+    color: #808099;
 }
 label{
     margin: 10px;
@@ -19,7 +22,58 @@ input{
 #hireme{
     font-size: 5px;
 }
-
+.top-banner{
+    height: 200px;
+    position: fixed;
+    background-color: white;
+    padding-top: 10px;
+    width: calc(100vw - 280px);
+    top: 0;
+    left: 281px;
+}
+.container{
+    position: fixed;
+    height: 100vh;
+    width: calc(100vw - 280px);
+    left: 280px;
+    padding-top: 120px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #252930;
+    height: 100vh;
+    border-right: 1px solid black;
+    overflow-y: scroll;
+    width: 280px;
+}
+.logo{
+    height: 90px;
+    font-size: 55px;
+    padding-top: 30px;
+    background-color: #06c600;
+    margin-bottom: 80px;
+}
+.sideLink{
+    margin: 0 auto;
+    border-bottom: 2px solid #20206b;
+    width: 80%;
+}
+.credits{
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: calc(100vh - 45px);
+    height: 35px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #383838;
+}
+#display-name{
+    color: black;
+    font-size: 60px;
+}
 .button{
     float: left;
     height: 100px;

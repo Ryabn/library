@@ -19,25 +19,13 @@ function displayInfo(text){
     document.getElementById('header').innerHTML = text;
 }
 
-function validateUserInfo(){
-    var data = {
-        "book_ID": null,
-        "author_first_name": null,
-        "author_last_name": null,
-        "book_name": null,
-        "genre": null,
-        "publish_date": null,
-        "checked_out": null,
-        "date_checked_out": null,
-        "date_returned": null
-    };
-
-    sendData(data);
-}
-
 function redirectAdd(){
     window.location = 'addBook.html';
 }
 function redirectRemove(){
     window.location = 'removeBook.html';
+}
+
+function load(){
+    document.getElementById('display-name').innerHTML = "Welcome, " + "{{name}}" + "!";
 }
