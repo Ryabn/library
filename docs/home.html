@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Ryan's Library
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body onload="load();">
+        <div class="sidebar">
+            <div class="logo">
+                eLibrary
+            </div>
+            <div class="sideLink" onclick="redirectAdd();">
+                <h2>Add Book</h2>
+            </div>
+            <div class="sideLink" onclick="redirectRemove();">
+                <h2>Remove Book</h2>
+            </div>
+            <div class="sideLink" onclick="redirectRemove();">
+                <h2>Search</h2>
+            </div>
+            <div class="sideLink" onclick="redirectRemove();">
+                <h2>Check Account</h2>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="top-banner">
+                <p id="display-name"  class="animated fadeInDown"></p>
+            </div>
+            
+            <div class="labels">
+                <label>Book Title: </label>
+                <label>Author First Name: </label>
+                <label>Author Last Name: </label>
+                <label>Genre: </label>
+                <label>Publish Date: </label>
+            </div>
+            
+            <div class="text-field">
+                <input id="book-name" type="text">
+                <br>
+                <input id="first-name" type="text">
+                <br>
+                <input id="last-name" type="text">
+                <br>
+                <input id="genre" type="text">
+                <br>
+                <input id="publish-date" type="text">
+            </div>
+            
+            <p id="hireme">please hire me</p>
+            
+            
+        </div>
+        <div class="credits">
+            designed by ryan yang
+        </div>
+    </body>
+</html>

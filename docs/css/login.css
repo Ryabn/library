@@ -1,0 +1,46 @@
+body{
+    background-color: #252930;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+#particles-js{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.logo{
+    margin: 0 auto;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: #06c600;
+}
+
+.login-wrapper{
+    background-color: #ededed;
+    height: 400px;
+    width: 500px;
+    position: fixed;
+    left: calc(50vw - 250px);
+    top: calc(50vh - 230px);
+    border-radius: 10px;
+}
+
+.credits{
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: calc(100vh - 45px);
+    height: 35px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #383838;
+    text-align: center;
+    color: white;
+}

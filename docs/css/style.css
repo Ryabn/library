@@ -1,9 +1,6 @@
 body{
     background-color: #ededed;
-    text-align: center;
     color: white;
-    margin: 0;
-    
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -11,18 +8,24 @@ h2{
     color: #808099;
 }
 label{
+    color: black;
     margin: 10px;
+    font-size: 30px;
+    padding: 20px;
     display: block;
 }
 input{
-    width: 200px;
+    width: 100%;
     font-size: 30px;
+    border: 3px solid #06c600;
     border-radius: 15px;
+    margin: 20px;
 }
 #hireme{
     font-size: 5px;
 }
 .top-banner{
+    text-align: center;
     height: 200px;
     position: fixed;
     background-color: white;
@@ -32,11 +35,12 @@ input{
     left: 281px;
 }
 .container{
+    overflow-y: scroll;
     position: fixed;
     height: 100vh;
     width: calc(100vw - 280px);
     left: 280px;
-    padding-top: 120px;
+    padding: 220px 5vw 0 5vw;
 }
 .sidebar{
     position: fixed;
@@ -51,11 +55,13 @@ input{
 .logo{
     height: 90px;
     font-size: 55px;
-    padding-top: 30px;
+    padding-top: 40px;
     background-color: #06c600;
     margin-bottom: 80px;
+    text-align: center;
 }
 .sideLink{
+    text-align: center;
     margin: 0 auto;
     border-bottom: 2px solid #20206b;
     width: 80%;
@@ -69,6 +75,7 @@ input{
     font-size: 20px;
     padding-top: 10px;
     background-color: #383838;
+    text-align: center;
 }
 #display-name{
     color: black;
@@ -84,7 +91,16 @@ input{
     background-color: #6d9fe0;
     box-shadow: 5px 5px 0 grey;
 }
-
+.labels{
+    padding: 20px;
+    width: 320px; 
+    float: left;
+}
+.text-field{
+    
+    padding: 20px;
+    float: left;
+}
 #submit-button{
     border-radius: 50px;
     height: 80px;
