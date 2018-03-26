@@ -14,13 +14,29 @@
     </head>
     <body>
         <div id="particles-js"></div>
-        <div class="login-wrapper">
+        <div id="shakes" class="login-wrapper">
             <div class="logo">
                 <h1>eLibrary</h1>
             </div>
-            
-            
+            <div class="labels">
+                <label>Username: </label>
+                <label>Password: </label>
             </div>
+            <div class="inputs">
+                <input id="user" type="text">
+                <input id="pass" type="password">
+            </div>
+            <div class="forgot">
+                <a href="#"> Forgot Your Username or Password? </a>
+            </div>
+            <div class="sign-up button" onclick="signup();">
+                <h2>Sign Up</h2>
+            </div>
+            
+            <div class="log-in button" onclick="login();">
+                <h2>Log In >></h2>
+            </div>
+        </div>
         <div class="credits">
             designed by ryan yang
         </div>
